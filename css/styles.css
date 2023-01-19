@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+header{
+    height: 160px;
+    background-color: #ffcb04;
+}
+
+.header{
+    position: relative;
+    font-family: 'MyrProBoldCond' !important;
+    width: 70%;
+    margin: auto;
+    
+}
+
+select{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin-top: auto;
+    
+}
+
+.logo{
+    float: left;
+    margin-top: 43px;
+    margin-right: 230px;
+}
+
+.header-buttons{
+    margin-top: 60px;
+    float: left;
+    font-family: 'MyrProBoldCond' !important;
+}
+
+.ticari{
+    margin: auto 10px;
+    float: left;
+}
+
+.uyegiris{
+    margin: auto 10px;
+    float: left;
+}
+
+.dilsec{
+    margin-top: 6px;
+    float: left;
+    
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffcb04;
+    font-size: 16px;
+    background: black;
+    padding: 10px 10px 10px 10px;
+    border: solid black 1px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    text-decoration: none;
+  }
+
+.btn1 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #090909;
+    font-size: 16px;
+    background: transparent;
+    padding: 10px 10px 10px 10px;
+    border: solid black 1px;
+    text-decoration: none;
+  }
+  
+.btn1:hover {
+    text-decoration: none;
+  }
+
+.section{
+    height: 106px;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    background-color: #313131;
+    z-index: 1;
+}
+
+.uyeol{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.uyeol button{
+    height: 56px;
+    width: 270px;
+    font-size: 1.125rem;
+    background-color: #ffcb04;
+    border: solid 2px black;
+    margin: auto 10px;
+}
+
+.uyeol input{
+    border: solid 2px #c7c7c7;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 0 19px;
+    font-size: 1.125rem;
+    height: 50px;
+    width: 270px;
+    margin: auto 10px;
+    color: #090909;
+}
+
+.container{
+    position: relative;
+    font-family: 'MyrProBoldCond' !important;
+    width: 70%;
+    margin: auto;
+}
+
+.hemenuyeol img{
+    width: 100%;
+}
+
+.film-kartlar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.kart{
+    float: left;
+    width: 20%;
+    margin: 23px;
+    text-align: center;
+}
+
+.kart img{
+    width: 100%;
+}
+
+.kart a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0vmin;
+}
+
+.uye-aciklama{
+    margin: 50px auto;
+}
+
+.aciklama-resim{
+    margin: auto;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.aciklama-metin{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.aciklama-metin h1{
+    font-size: 2.05vw;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: 'MyrProSemiboldCond' !important;
+}
+
+.app-link{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.ikonlar{
+    margin: auto;
+    width: 20%;
+    margin-top: 40px;
+
+}
+
+.ikonlar a{
+    margin-right: 5px;
+}
+
+.yardim{
+    background-color: #090909;
+    height: 45px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 30px;
+}
+
+.yardim a{
+    text-decoration: none;
+    color: #ffcb04;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
